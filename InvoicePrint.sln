@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoicePrint", "InvoicePrint\InvoicePrint.csproj", "{B956562A-6F26-4694-A181-956DADD94DCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoicePrint.Tests", "InvoicePrint.Tests\InvoicePrint.Tests.csproj", "{C94EFA73-EF12-4756-A94A-B40374A11B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B956562A-6F26-4694-A181-956DADD94DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B956562A-6F26-4694-A181-956DADD94DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B956562A-6F26-4694-A181-956DADD94DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B956562A-6F26-4694-A181-956DADD94DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94EFA73-EF12-4756-A94A-B40374A11B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94EFA73-EF12-4756-A94A-B40374A11B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94EFA73-EF12-4756-A94A-B40374A11B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94EFA73-EF12-4756-A94A-B40374A11B09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C0CEA51-036C-4385-8AEB-210D641A8BAC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿@model InvoicePrint.Models.Invoice
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Invoice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BillToName" class="control-label"></label>
+                <input asp-for="BillToName" class="form-control" />
+                <span asp-validation-for="BillToName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BilltoAddress" class="control-label"></label>
+                <input asp-for="BilltoAddress" class="form-control" />
+                <span asp-validation-for="BilltoAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InvoiceDue" class="control-label"></label>
+                <input asp-for="InvoiceDue" class="form-control" />
+                <span asp-validation-for="InvoiceDue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InvoiceAmount" class="control-label"></label>
+                <input asp-for="InvoiceAmount" class="form-control" />
+                <span asp-validation-for="InvoiceAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ConvertToPDF" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+    <br/>
+    <a asp-action="Details">Details</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
